@@ -1,0 +1,8 @@
+transformers
+torch
+requests
+beautifulsoup4
+PyPDF2
+pandas
+openpyxl
+nltk
