@@ -51,13 +51,13 @@ def scrape_excel(url):
     return excel_data.to_string()  # Convert the DataFrame to a string
 
 # Example usage
-if __name__ == "__main__":
-    urls = [
-        "https://example.com/somefile.pdf",
-        "https://example.com/somepage.html",
-        "https://example.com/somefile.xlsx"
-    ]
+# if __name__ == "__main__":
+#     urls = [
+#         "https://example.com/somefile.pdf",
+#         "https://example.com/somepage.html",
+#         "https://example.com/somefile.xlsx"
+#     ]
     
-    for url in urls:
-        scraped_data = scrape_source(url)
-        print(f"Scraped Data from {url[:50]}: {scraped_data[:500] if isinstance(scraped_data, str) else scraped_data}\n")
+#     for url in urls:
+#         scraped_data = scrape_source(url)
+#         print(f"Scraped Data from {url[:50]}: {scraped_data[:500] if isinstance(scraped_data, str) else scraped_data}\n")
